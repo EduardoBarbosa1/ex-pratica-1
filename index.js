@@ -38,8 +38,15 @@ var valb = 20;
 let a = valb;
 let b = vala;
 document.write(`   ${a} e ${b}`);
+//forma alternativa
+//[A,b]=[b,a]
 
 // exercicio7
+var totalEle = 1000;
+var totalnulos = 150;
+var totalbran = 100;
+var Votosval = 750;
+
 
 
 
@@ -70,6 +77,8 @@ if (numeroMaça >= 12) {
 var nome = "pepe";
 var idade = 25;
 var ano = 2023 - idade;
+//forma alt
+//var anoAtual = new Date().getFullYear();
 document.write(`  ${nome} nasceu em ${ano} `)
 
 
